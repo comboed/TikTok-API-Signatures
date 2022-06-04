@@ -15,4 +15,8 @@ Script functions:
  This script is for educational purposes and is not to be sold under any circumstances.
  
  Current Issues:  
-  &ensp; Device registration will register a device, but the device/install id are **unusable** until they are XLOG'd. I currently do not have enough time on my hands to write the XLOG data.
+  &ensp; Device registration will register a device, but the device/install id are **unusable** until they are XLOG'd. I currently do not have enough time on my hands to write the XLOG data.  
+  
+  Credits:  
+  @SebastienWae
+  @coder-fly
