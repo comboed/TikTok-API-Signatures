@@ -18,5 +18,5 @@ Script functions:
   &ensp; Device registration will register a device, but the device/install id are **unusable** until they are XLOG'd. I currently do not have enough time on my hands to write the XLOG data.  
   
   Credits:  
-  @SebastienWae
+  @SebastienWae  
   @coder-fly
