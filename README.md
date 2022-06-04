@@ -1,4 +1,4 @@
-**TikTok Frida**
+
 __________________
 **REQUIREMENTS**  
 A rooted Android(Emulator works) or jailbroken IOS device.  
