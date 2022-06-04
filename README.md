@@ -11,6 +11,7 @@ Script functions:
   
  Registered devices are based on TikTok version 24.7.2 and use TikTok's infamous **TTEncrypt**.  
  Depending on the APK, will determine which version of **X-Gorgon** will be generated. Anything after 18.9.5 (v0404) will **not work**.  
+ 
  This script is for educational purposes and is not to be sold under any circumstances.
  
  Current Issues:  
