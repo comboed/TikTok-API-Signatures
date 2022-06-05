@@ -11,7 +11,6 @@ import gzip
 # Device Data
 DEVICE_USER_AGENT = None
 DEVICE_PARAMS = None
-DEVICE_LOG = None
 DEVICE_IID = None
 DEVICE_ID = None
 
@@ -66,8 +65,8 @@ def sign_api():
 
 @app.route("/register_device/")
 def register_device():
-    global DEVICE_LOG, DEVICE_PARAMS, DEVICE_USER_AGENT, DEVICE_IID, DEVICE_ID
-    java_log, DEVICE_LOG, DEVICE_PARAMS, DEVICE_USER_AGENT = create_device()
+    global DEVICE_PARAMS, DEVICE_USER_AGENT, DEVICE_IID, DEVICE_ID
+    java_log, DEVICE_PARAMS, DEVICE_USER_AGENT = create_device()
     device_params = "{}&_rticket={}&ts={}".format(DEVICE_PARAMS, str((time.time() * 1000)).split('.')[0], str(time.time()).split(".")[0])
 
     try:
